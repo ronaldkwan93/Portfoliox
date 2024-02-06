@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.mjs
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
+    siteTitle: `Welcome`,
+    siteTitleAlt: `Welcome`,
+    siteHeadline: `Welcome`,
     siteUrl: `https://cara.lekoarts.de`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/rklogo.JPG`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `@ronKwan`,
   },
   trailingSlash: `always`,
   plugins: [
@@ -27,7 +27,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
+        name: `Welcome`,
         short_name: `Cara`,
         description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
         start_url: `/`,
@@ -38,14 +38,14 @@ const config: GatsbyConfig = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/rklogo.JPG`,
             sizes: `192x192`,
-            type: `image/png`,
+            type: `image/JPG`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/rklogo.JPG`,
             sizes: `512x512`,
-            type: `image/png`,
+            type: `image/JPG`,
           },
         ],
       },
